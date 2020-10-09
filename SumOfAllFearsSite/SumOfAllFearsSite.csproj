@@ -73,9 +73,15 @@
     <Content Include="assets\img\demo-image-02.jpg" />
     <Content Include="assets\img\favicon.ico" />
     <Content Include="assets\img\ipad.png" />
+    <Content Include="Code.html" />
+    <Content Include="Content\custom.css" />
+    <Content Include="Content\customCode.css" />
+    <Content Include="Content\prism.css" />
     <Content Include="css\styles.css" />
     <Content Include="index.html" />
+    <Content Include="js\custom.js" />
     <Content Include="js\scripts.js" />
+    <Content Include="Scripts\prism.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -91,10 +97,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Content\" />
     <Folder Include="Fonts\" />
     <Folder Include="Images\" />
-    <Folder Include="Scripts\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
