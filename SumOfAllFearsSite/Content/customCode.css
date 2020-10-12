@@ -1,4 +1,9 @@
 /* Custom Code CSS */
 
-body {
+.codeBody {
+    background-image: linear-gradient(black, #6E6E6E);
+}
+
+#codeDisplay {
+    margin-top: 5.6rem;
 }
