@@ -12,7 +12,7 @@ document.getElementById("submitBtn").addEventListener("click", function () {
         let outputMessage = "";
 
         for (let loop = 0; loop < givenArr.length - 1; loop++) {
-            //any number larger than K ignore
+            //any number larger than inputVal ignore
             if (givenArr[loop] > inputVal)
                 continue;
 
